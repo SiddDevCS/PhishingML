@@ -19,10 +19,12 @@ I am training a Machine Learning model to predict whether a given URL is a phish
 
 ```
 phishing-detector/
-├── data/        # CSV/JSON datasets
-├── notebooks/   # Experimentation and feature extraction scripts
-├── models/      # Trained ML models
-├── app/         # Flask API code
+├── data/
+├────── fetch.py            # Script to fetch phishing datasets
+├────── phish-data.json     # JSON datasets
+├── notebooks/              # Experimentation and feature extraction scripts
+├── models/                 # Trained ML models
+├── app/                    # Flask API code
 ├── README.md
 └── requirements.txt
 ```
