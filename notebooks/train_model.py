@@ -4,7 +4,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import classification_report
 import joblib
-from extract_features import extract_features
+from extract_f import extract_features
 
 # Load phishing URLs
 with open("data/phish-data.json", "r") as f:
