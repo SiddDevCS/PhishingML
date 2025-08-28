@@ -8,15 +8,11 @@ env/
 venv/
 *.egg-info/
 
-# Jupyter
-.ipynb_checkpoints/
-
 # VS Code
 .vscode/
 
 # Data / models (optional: if datasets are large, don't track them)
 data/*.csv
-models/*.pkl
 
 # Logs
 *.log
