@@ -1,6 +1,6 @@
 from flask import Flask, request, jsonify, render_template_string
 import joblib
-from notebooks.extract_features import extract_features
+from extract_features import extract_features
 import pandas as pd
 
 app = Flask(__name__)
