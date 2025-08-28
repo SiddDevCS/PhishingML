@@ -43,6 +43,7 @@ pip install -r requirements.txt
 ```shell
 python3 notebooks/train_model.py
 ```
+### Note: if there is already a model in model/ delete the new model made with `train_model.py`
 
 6. Finally set up the Flask web app
 ```shell
