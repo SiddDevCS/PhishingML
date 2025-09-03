@@ -13,7 +13,11 @@
             <button type="submit">Check URL</button>
         </form>
 
-        {% if prediction %}
+        {% if error %}
+            <div class="result error">
+                <p>{{ error }}</p>
+            </div>
+        {% elif prediction %}
             <div class="result">
                 <p>URL: {{ url }}</p>
                 <p>Prediction: {{ prediction }}</p>

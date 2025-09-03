@@ -49,3 +49,11 @@ button:hover {
     margin-top: 20px;
     font-size: 18px;
 }
+
+.result.error {
+    color: #ff6b6b;
+    background-color: rgba(255, 107, 107, 0.1);
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ff6b6b;
+}
