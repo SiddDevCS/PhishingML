@@ -1,8 +1,12 @@
 from flask import Flask, render_template, request, jsonify
 import joblib
-from extract_features import extract_features
 import pandas as pd
 import os
+import sys
+
+# Add the app directory to the Python path
+sys.path.append(os.path.dirname(__file__))
+from extract_features import extract_features
 
 app = Flask(__name__, static_folder='static', static_url_path='/static')
 
